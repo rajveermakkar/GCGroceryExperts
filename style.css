@@ -1,0 +1,355 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: "Roboto",sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    max-width: 1536px;
+
+}
+
+/* Navbar  */
+
+#navbar{
+    height:90px;
+    width: 100vw;
+    background-color: #Fff;
+    position: fixed;
+}
+#logo{
+    background-image: url("asset/logo/GC.png");
+    height:90px;
+    width: 300px;
+    background-size: cover;
+    margin-left:150px;
+    border-radius: 10px;
+    
+}
+#contents{
+    margin-right:100px;
+    float:right;
+   
+}
+.nav-a{
+    color:black;
+    font-size: 16px;
+    text-decoration: none;
+    padding:30px;
+    position: relative;
+    bottom:55px;
+}
+.nav-a:hover{
+    font-weight: bold;
+    border-bottom:5px solid #E1251B;
+}
+
+.hero{
+    height:400px;
+    display:inline-block;
+    width:100%;
+}
+#main{
+    width:100vw;
+    max-width: 100%;
+}
+/* Hero 1  */
+
+#hero1{
+    background-image: url("asset/hero1.jpg");
+    background-size: cover;
+    margin-top:90px;
+
+}
+#herotext{
+    color:white;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin:100px auto;
+    text-shadow:
+    3px 3px 0 #000,
+  -1px -1px 0 #000,  
+   1px -1px 0 #000,
+   -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+#herotext h2{
+    font-variant:small-caps;
+    font-weight: bold;
+    font-size:80px;
+}
+#herotext h5{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* hero2 */
+
+#hero2{
+    height:380px;
+    background-color: #E1251B;
+    border-top:5px solid #Fff;
+    border-bottom:5px solid #Fff;
+}
+#hero2content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+#hero2content h2{
+    margin:40px 0px;
+}
+.heroheading{
+    font-size: 40px;
+    font-weight: bold;
+}
+#hero2content span{
+    font-size: 15px;
+    margin-bottom:50px;
+}
+.shopbrand{
+    height:100px;
+    width:200px;
+    display:inline-block;
+}
+#brands{
+    display: flex;
+}
+#brands a{
+    margin: 0px 20px;
+    border-radius: 15px;
+}
+#metro{
+    background-image: url("asset/metro.jpg");
+    background-size: cover;
+    background-position-y:-50px ;
+}
+#fortinos{
+    background-image: url("asset/fortinos.png");
+    background-size: 280px;
+    background-position-x: -34px;
+    background-position-y: 10px;
+}
+#costco{
+    background-image: url("asset/costco.png");
+    background-size: 200px ;
+    background-position-x: -7px;
+    background-position-y: 16px;
+}
+#wallmart{
+    background-image: url("asset/Walmart-Logo.jpg");
+    background-size: 200px ;
+    background-position-x: -2px;
+}
+#nofrills{
+    background-image: url("asset/nofrills.jpg");
+    background-size: cover;
+    background-position-y: -18px;
+}
+
+
+
+
+/* hero3 */
+#hero3{
+    height:600px;
+    background-color: #F0F0F0;
+}
+
+#hero3content{
+    margin:40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#hero3cards{
+    margin:40px 0px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 50px;;
+}
+#img-card1{
+    background-image: url("asset/cards/1.png");
+    background-size: cover;
+}
+#img-card2{
+    background-image: url("asset/cards/2.jpg");
+    background-size: cover;
+    background-position-y: -50px;
+}
+#img-card3{
+    background-image: url("asset/cards/3.jpg");
+    background-size: cover;
+}
+#img-card4{
+    background-image: url("asset/cards/4.jpg");
+    background-size: cover;
+}
+.card-img{
+    height:200px;
+    width:300px;
+    border-radius:5px;
+}
+.card{
+    height:350px;
+    width:300px;
+}
+.cardheading{
+    margin:20px 0px;
+    color:#323232;
+    display:block;
+    font-size:20px;
+    font-weight: bold;
+}
+.cardtext{
+    color:#666B73;
+}
+
+/* hero4 */
+
+#hero4{
+    height:500px;
+    background-color: white;
+}
+#h4c1{
+    width:800px;
+}
+#logo2{
+    background-image: url("asset/logo/1.png");
+    height:150px;
+    width: 150px;
+    background-size: cover;
+    margin:20px 0px;
+}
+#hero4content{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+#hero4heading{
+    display: block;
+    color:#323232;
+    font-size:50px;
+    font-weight: bold;
+    margin:30px 0px;
+}
+#hero4text{
+    font-size: 14px;
+    color:#666B73;
+}
+#h4c2{
+    background-image: url("asset/customer-service.jpg");
+    height:500px;
+    width:300px;
+    background-size: cover;
+}
+
+/* hero5 */
+
+#hero5{
+    background-color: #F0F0F0;
+    height:500px;
+}
+#hero5content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin:100px 0px;
+}
+#h5sec1{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 50px;
+}
+.h5cards{
+    height:300px;
+    width:550px;
+    background-color: white;
+    display:flex;
+    flex-direction: row;
+}
+.h5card-img{
+    height:250px;
+    width:400px;
+    margin:20px;
+    border-radius:5px;
+}
+#img-h5card1{
+    background-image: url("asset/pickup.jpg");
+    background-size: cover;
+}
+#img-h5card2{
+    background-image: url("asset/delivery.jpg");
+    background-size: cover;
+    width:400px;
+}
+.h5txt h3{
+    color:#323232;
+    font-size: 25px;
+    font-weight: bold;
+    margin:40px;
+}
+.h5txt span{
+    color:#666B73;
+    font-size:14px;
+    display:block;
+    margin:40px;
+}
+.button{
+    text-decoration: none;
+    font-size:14px;
+    color:white;
+    background-color: #E1251B;
+    padding:20px 40px;
+    border-radius: 10px;
+    margin:40px;
+}
+.button:hover{
+    font-weight: bold;
+}
+.learnmore{
+    text-decoration: underline;
+    color:#666B73;
+    font-size:14px;
+    position: relative;
+    top:30px;
+    left:40px;
+}
+.learnmore:hover{
+    color:#E1251B;
+    font-weight: bold;
+}
+
+/* footer */
+
+#footer{
+    height:300px;
+    background-color: #000000;
+    text-align: center;
+}
+#footercontent{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#footerlogo{
+    background-image: url("asset/logo/1.png");
+    height:200px;
+    width:200px;
+    background-size: cover;
+    margin-top:55px;
+    margin-left:50px;
+}
+#footertext{
+    color:white;
+    margin:60px;
+    margin-left:30px;
+    margin-top:150px;
+}
+#email{
+    margin-top:20px;
+    color:#666B73;
+}
