@@ -7,7 +7,9 @@
     max-width: 1536px;
 
 }
-
+.branding{
+    color:#E1251B
+}
 /* Navbar  */
 
 #navbar{
@@ -15,6 +17,7 @@
     width: 100vw;
     background-color: #Fff;
     position: fixed;
+
 }
 #logo{
     background-image: url("asset/logo/GC.png");
@@ -42,7 +45,20 @@
     font-weight: bold;
     border-bottom:5px solid #E1251B;
 }
+.checkbtn{
+    font-size: 30px;
+    color:black;
+    line-height: 80px;
+    cursor:pointer;
+    float:right;
+    margin-right:50px;
+    display: none;
+}
+#check{
+    display:none;
+}
 
+/* main */
 .hero{
     height:400px;
     display:inline-block;
@@ -270,6 +286,7 @@
     background-color: white;
     display:flex;
     flex-direction: row;
+    border-radius: 10px;
 }
 .h5card-img{
     height:250px;

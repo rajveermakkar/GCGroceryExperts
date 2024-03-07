@@ -1,0 +1,180 @@
+@media (max-width:640px){
+    *{
+        text-align: center;
+    }
+    .checkbtn{
+        display: block;
+    }
+    #contents{
+        position: fixed;
+        width:100%;
+        height:100vh;
+        background-color:white;
+        top:80px;
+        left:-100%;
+        transition: all .5s;
+    }
+    .nav-a{
+        position: relative;
+        top:0px;
+        color:#E1251B;
+        font-size:18px;
+        display: block;
+        padding:40px 0px;
+        border:0.5px solid white;
+    }
+    #check:checked ~ #contents{
+        left:0;
+    }
+    #logo{
+        margin-left:0px;
+    }
+
+    /* hero1 */
+    #herotext h2{
+        font-size:60px;
+    }
+    #herotext h5{
+        font-size:20px;
+    }
+
+    /* hero2 */
+    #hero2{
+        height:auto;
+    }
+    #brands{
+        display: grid;
+        grid-template-columns: auto;
+        column-gap: 0px;
+    }
+    .shopbrand{
+        height:150px;
+        width:320px;
+        margin:20px auto;
+    }
+    #brands a{
+        margin:20px;
+    }
+    #fortinos{
+        background-image: url("asset/fortinos.png");
+        background-size: 400px;
+        background-position-y: 30px;
+    }
+    #costco{
+        background-image: url("asset/costco.png");
+        background-size: 360px ;
+        background-position-x: -22px;
+        background-position-y: 31px;
+    }
+    #wallmart{
+        background-image: url("asset/Walmart-Logo.jpg");
+        background-size: 320px ;
+        background-position-x: 2px;
+    }
+
+
+    /* hero3 */
+
+    #hero3{
+        height:auto;
+    }
+    #hero3cards{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .card{
+        margin-bottom:30px;
+    }
+
+    /* hero4 */
+    #logo2{
+        margin:0px auto;
+    }
+    #hero4{
+        height:auto;
+    }
+    #hero4content{
+        margin:40px;
+    }
+    #hero4heading{
+        font-size: 30px;
+    }
+    #hero4text{
+    }
+    #h4c2{
+        display: none;
+    }
+
+    /* hero5 */
+    #hero5{
+        height:auto;
+    }
+    #h5sec1{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .h5cards{
+        height:580px;
+        width:300px;
+        background-color: white;
+        display:flex;
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .h5card-img{
+        height:250px;
+        width:260px;
+        border-radius:5px;
+        overflow: hidden;
+    }
+    #img-h5card2{
+        background-image: url("asset/delivery.jpg");
+        background-size: cover;
+        width: 260px;
+    }
+    .h5txt{
+        text-align: center;
+
+    }
+    .h5txt h3{
+        color:#323232;
+        font-size: 25px;
+        font-weight: bold;
+        
+    }
+    .h5txt span{
+        color:#666B73;
+        font-size:14px;
+        display:block;
+    }
+    .button{
+        margin-left:45px;
+    }
+    .learnmore{
+        display: block;
+        margin-top:20px;
+        margin-right:75px;
+    }
+
+    /* footer */
+
+    #footer{
+        height:auto;
+        margin:0px;
+        text-align: center;
+    }
+    #footercontent{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    #footerlogo{
+        height:150px;
+        width: 150px;
+        margin:20px auto;
+    }
+    #footertext{
+        margin:20px;
+    }
+
+}
