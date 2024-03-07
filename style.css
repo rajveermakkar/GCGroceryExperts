@@ -332,9 +332,9 @@
     text-decoration: underline;
     color:#666B73;
     font-size:14px;
-    position: relative;
-    top:30px;
-    left:40px;
+    display:inline-block;
+    margin-top:40px;
+    margin-left:80px;
 }
 .learnmore:hover{
     color:#E1251B;
